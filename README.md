@@ -50,7 +50,7 @@ Please see [eval.md](evaluation/eval.md).
 
 ## Acknowledgement
 
-The codebase is built upon [3D-Mem](https://github.com/UMass-Embodied-AGI/3D-Mem), and [MemoryEQA](https://github.com/memory-eqa/MemoryEQA).
+The codebase is built upon [3D-Mem](https://github.com/UMass-Embodied-AGI/3D-Mem) and [MemoryEQA](https://github.com/memory-eqa/MemoryEQA).
 We thank the authors for their great work.
 
 ## Citation

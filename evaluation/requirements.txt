@@ -1,0 +1,17 @@
+numpy==1.23.5
+omegaconf==2.3.0
+open-clip-torch==2.26.1
+ultralytics==8.2.31
+supervision==0.21.0
+opencv-python==4.11.*
+opencv-python-headless==4.10.*
+scikit-learn==1.4
+scikit-image==0.22
+open3d==0.18.0
+hipart==1.0.4
+openai==1.35.3
+openai-clip
+httpx==0.27.2
+accelerate
+transformers==4.57.1
+qwen-vl-utils

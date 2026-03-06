@@ -42,7 +42,7 @@ Please download the train and val split of [HM3D](https://aihabitat.org/datasets
 
 
 ## Evaluation
-Please see [eval.md](evaluation\eval.md).
+Please see [eval.md](evaluation/eval.md).
 
 ## Todo List
 - Release training scripts and dataset

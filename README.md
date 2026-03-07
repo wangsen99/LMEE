@@ -76,7 +76,7 @@ data
 ```
 
 ## Evaluation
-### Installation
+### 1. Installation
 Set up the conda environment (Linux, Python 3.9):
 ```bash
 cd evaluation
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 conda install -c conda-forge -c aihabitat habitat-sim=0.3.1 headless faiss-cpu=1.7.4 -y
 ```
 
-### Reasoning
+### 2. Reasoning
 Specify the paths in the configuration file: `cfg/eval_lmee_bench.yaml` and execute the following command:
 
 ```bash
@@ -99,7 +99,7 @@ python run_lmee.py -cf cfg/eval_lmee_bench.yaml --answer_type open
   - `LMEE-Bench/lmee_bench_sub`: Includes 58 tasks.
   - `LMEE-Bench/lmee_bench`: Includes the full 166 tasks.
 
-### Evaluation
+### 3. Evaluation
 After running the reasoning script, you will get the results file: `lmee_answer.json` and use the following command to evaluate the question-answering performance:
 
 ```bash
@@ -107,7 +107,7 @@ python eval_lmee_bench.py --json_path "results/exp_eval_lmee/lmee_answer.json" -
 ```
 
 ## Training
-### Installation
+### 1. Installation
 Set up the conda environment (Linux, Python 3.10):
 ```bash
 cd train
@@ -118,7 +118,7 @@ pip install hf_transfer vllm==0.8.5.post1 triton==3.2.0
 pip install -e .
 ```
 
-### Running
+### 2. Running
 Specify the paths in the running file `train_my.sh` and `IMAGE_ROOT` in `verl\tooluse\memory_tool.py`, and execute the following command:
 ```bash
 bash train_my.sh

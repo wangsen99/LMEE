@@ -122,7 +122,7 @@ pip install -e .
 ```
 
 ### Running
-Specify the paths in the running file `train_my.sh` and `IAMGE_ROOT` in `verl\tooluse\memory_tool.py`, and execute the following command:
+Specify the paths in the running file `train_my.sh` and `IMAGE_ROOT` in `verl\tooluse\memory_tool.py`, and execute the following command:
 ```bash
 bash train_my.sh
 ```

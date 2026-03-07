@@ -431,7 +431,6 @@ class RayPPOTrainer:
                 second_rollout_data["attention_mask"] = attention_mask
                 second_rollout_data["position_ids"] = position_ids
                 second_rollout_data["raw_prompt_ids"] = raw_prompt_ids
-                # second_rollout_data["metadata"] = metadata_batch[idx]
                 second_rollout_data["rollout_round"] = 1
 
                 # we add all the keys that aren't yet assigned

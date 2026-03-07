@@ -1,7 +1,6 @@
 accelerate
 codetiming
 datasets
-flash-attn
 liger-kernel
 mathruler
 omegaconf
@@ -16,6 +15,7 @@ tensordict
 torchdata
 torch==2.6.0
 torchvision==0.21.0
+flash-attn==2.8.3
 transformers==4.51.1
 vllm==0.8.5.post1
 numpy==1.26.4

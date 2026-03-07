@@ -94,13 +94,10 @@ Specify the paths in the configuration file: `cfg/eval_lmee_bench.yaml` and exec
 ```bash
 python run_lmee.py -cf cfg/eval_lmee_bench.yaml --answer_type open
 ```
-
 - **answer_type**: Choose between `open` and `choice`.
 - **Subset Options**:
   - `LMEE-Bench/lmee_bench_sub`: Includes 58 tasks.
   - `LMEE-Bench/lmee_bench`: Includes the full 166 tasks.
-
----
 
 ### Evaluation
 After running the reasoning script, you will get the results file: `lmee_answer.json` and use the following command to evaluate the question-answering performance:
@@ -127,8 +124,6 @@ Specify the paths in the running file `train_my.sh` and `IMAGE_ROOT` in `verl\to
 bash train_my.sh
 ```
 Please see [EasyR1](https://github.com/hiyouga/EasyR1) and [verl](https://github.com/verl-project/verl) for more training details. 
-
----
 
 ## Todo List
 - ~~Release training scripts and dataset~~

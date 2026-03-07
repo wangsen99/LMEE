@@ -112,7 +112,7 @@ Set up the conda environment (Linux, Python 3.10):
 ```bash
 cd train
 
-conda create -n memoryexplorer python=3.9 -y && conda activate memoryexplorer
+conda create -n memoryexplorer python=3.10 -y && conda activate memoryexplorer
 pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 pip install hf_transfer vllm==0.8.5.post1 triton==3.2.0
 pip install -e .

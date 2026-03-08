@@ -30,13 +30,12 @@ class Parser:
     def trim_to_action_end(self, text):
         first_code_start = text.find("```")
         if first_code_start == -1:
-            return text  # 没有代码块，直接返回原文
+            return text
 
         first_code_end = text.find("```", first_code_start + 3)
         if first_code_end == -1:
-            return text  # 没找到结束符，直接返回原文
+            return text
 
-        # 返回从开头到第一个代码块结束的位置（包含 ```）
         return text[:first_code_end + 3].rstrip()
         # last_code_block_start = text.rfind("```")
         # if last_code_block_start == -1:

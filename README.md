@@ -130,7 +130,7 @@ Please see [EasyR1](https://github.com/hiyouga/EasyR1) and [verl](https://github
 - Release data generation scripts
 
 ## Acknowledgement
-The codebase is built upon [3D-Mem](https://github.com/UMass-Embodied-AGI/3D-Mem) and [MemoryEQA](https://github.com/memory-eqa/MemoryEQA).
+The codebase is built upon [3D-Mem](https://github.com/UMass-Embodied-AGI/3D-Mem), [MemoryEQA](https://github.com/memory-eqa/MemoryEQA) and [VTool-R1](https://github.com/VTool-R1).
 We thank the authors for their great work.
 
 ## Citation
